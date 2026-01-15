@@ -1,0 +1,12 @@
+customer_id,full_name,email,signup_date,customer_segment_id,region_id,is_active
+1,Juan Pérez,juan.perez@email.com,2024-01-10,1,1,t
+2,María González,maria.g@email.com,2024-02-15,2,1,t
+3,Carlos Soto,carlos.s@email.com,2023-11-20,1,2,t
+4,Ana Torres,ana.t@email.com,2023-09-05,3,3,t
+5,Luis Rojas,luis.r@email.com,2024-03-01,2,4,f
+6,Pedro Morales,pedro.m@email.com,2023-10-12,1,1,t
+7,Camila Fuentes,camila.f@email.com,2024-01-22,2,2,t
+8,Diego Herrera,diego.h@email.com,2023-12-05,1,3,t
+9,Sofía Martínez,sofia.m@email.com,2024-02-10,2,4,t
+10,Andrés López,andres.l@email.com,2023-08-18,3,3,t
+11,Valentina Castro,vale.c@email.com,2024-03-03,1,5,f

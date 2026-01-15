@@ -1,0 +1,14 @@
+product_id,product_name,category_id,price,cost
+1,Laptop Pro 14,1,1200.00,900.00
+2,Wireless Headphones,1,150.00,80.00
+3,Office Chair,2,300.00,180.00
+4,Yoga Mat,3,50.00,20.00
+5,Data Analytics Book,4,60.00,25.00
+6,Smartphone X,1,900.00,650.00
+7,Bluetooth Speaker,1,120.00,60.00
+8,Standing Desk,2,600.00,420.00
+9,Desk Lamp,2,80.00,35.00
+10,Running Shoes,3,140.00,70.00
+11,Fitness Tracker,3,200.00,130.00
+12,SQL Mastery Book,4,70.00,30.00
+13,Business Analytics Guide,4,55.00,22.00

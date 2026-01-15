@@ -1,0 +1,5 @@
+payment_id,order_id,payment_method_id,payment_date,payment_amount,payment_status
+1,1,1,2024-01-15,1500.00,Paid
+2,2,2,2024-02-20,300.00,Paid
+3,3,3,2024-02-25,120.00,Paid
+4,4,1,2024-01-18,1200.00,Paid

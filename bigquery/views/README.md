@@ -1,5 +1,29 @@
-# Analytics Views (Star Schema)
+# Analytics Views (Star Schema) Vistas analíticas esquema estrella
 
+<ESPAÑOL>
+Esta carpeta contiene las vistas de analítica construidas usando SQL estándar.
+
+## Diseño
+- Tabla de hechos: `fact_orders`
+- Tablas de dimensiones:
+  - `dim_customers`
+  - `dim_productos`
+  - `dim_dates`
+  - `dim_regions`
+
+## Compatibilidad en inteligencia de negocios
+Estas vistas están diseñadas para ser consumidas por:
+  - Looker / LookML
+  - Looker Studio
+  - Tableau
+  - Power BI
+
+## Beneficios
+  - Definición única de ganancias y margen
+  - Evitar duplicidad de métricas
+  - Limpiar la granularidad y unir las rutas lógicas
+  - Panel de reportes optimizado para su rendimiento
+<ENGLISH>
 This folder contains analytics-ready views built using standard SQL.
 
 ## Design

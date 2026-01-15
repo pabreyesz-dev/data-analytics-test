@@ -1,0 +1,14 @@
+order_id,customer_id,order_date,order_status,channel
+1,1,2024-01-15,Completed,Web
+2,2,2024-02-20,Completed,Mobile
+3,3,2024-02-25,Completed,Web
+4,4,2024-01-18,Completed,Web
+5,1,2024-03-05,Cancelled,Mobile
+6,6,2024-01-12,Completed,Web
+7,7,2024-01-20,Completed,Mobile
+8,8,2024-02-05,Completed,Web
+9,9,2024-02-14,Cancelled,Mobile
+10,10,2024-03-01,Completed,Web
+11,3,2024-03-10,Completed,Web
+12,2,2024-03-15,Completed,Mobile
+13,1,2024-03-20,Completed,Web
