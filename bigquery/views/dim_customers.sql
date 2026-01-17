@@ -10,8 +10,8 @@ SELECT
   cs.segment_name,
   r.country,
   r.city
-FROM `cloudsql.ecommerce_analytics.customers` c
-LEFT JOIN `cloudsql.ecommerce_analytics.customer_segments` cs
+FROM `ecommerce_analytics.customers` c
+LEFT JOIN `ecommerce_analytics.customer_segments` cs
   ON c.customer_segment_id = cs.customer_segment_id
-LEFT JOIN `cloudsql.ecommerce_analytics.regions` r
+LEFT JOIN `ecommerce_analytics.regions` r
   ON c.region_id = r.region_id;

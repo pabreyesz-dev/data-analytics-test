@@ -5,4 +5,4 @@ SELECT
   region_id,
   country,
   city
-FROM `cloudsql.ecommerce_analytics.regions`;
+FROM `ecommerce_analytics.regions`;

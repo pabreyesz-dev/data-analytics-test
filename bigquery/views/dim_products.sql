@@ -7,6 +7,6 @@ SELECT
   pc.category_name,
   p.price,
   p.cost
-FROM `cloudsql.ecommerce_analytics.products` p
-LEFT JOIN `cloudsql.ecommerce_analytics.product_categories` pc
+FROM `ecommerce_analytics.products` p
+LEFT JOIN `ecommerce_analytics.product_categories` pc
   ON p.category_id = pc.category_id;

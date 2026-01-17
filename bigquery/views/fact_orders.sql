@@ -17,8 +17,8 @@ SELECT
   p.cost,
   (oi.quantity * (oi.unit_price - p.cost)) AS gross_margin
 
-FROM `cloudsql.ecommerce_analytics.orders` o
-JOIN `cloudsql.ecommerce_analytics.order_items` oi
+FROM `ecommerce_analytics.orders` o
+JOIN `ecommerce_analytics.order_items` oi
   ON o.order_id = oi.order_id
-JOIN `cloudsql.ecommerce_analytics.products` p
+JOIN `ecommerce_analytics.products` p
   ON oi.product_id = p.product_id;
